@@ -29,8 +29,8 @@
         }
     </style>
 </head>
-<body class="font-manrope max-w-screen-xl mx-auto px lg:px-28 p-1">
-    <header class="lg:flex  pt-10 mb-20">
+<body class="font-manrope max-w-screen-2xl mx-auto px lg:px-28 p-1">
+    <header class="lg:flex  pt-10 mb-20 ">
         <div>
             <h1 class="font-extrabold text-5xl md:text-7xl mb-5 ">It's good <br>
                 tea time at The <br> Tea House
@@ -61,7 +61,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class=" lg:max-w-screen-xl lg:mx-24">
         <section class="py-8 lg:py-24">
             <div class="text-center">
                 <h1 class="text-3xl md:text-4xl lg:text text-5xl font-bold mb-4">Our Featured Products</h1>
@@ -103,7 +103,7 @@
         <section class="mb-24">
             <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div class="grid grid-cols-2 grid row-span-3 lg:w-5/6 gap-4">
-                    <div class="h-36 bg-gradient-to-r from-red-100 to-red-50 rounded-xl ">   
+                    <div class="h-36 bg-gradient-to-r from-red-100 to-orange-50 rounded-xl ">   
                     </div>
                     <div class="h-80 bg-orange-50 rounded-xl row-span-2">
                         <img class="mx-auto my-5" src="images/fresh-1.png" alt="">
@@ -147,6 +147,10 @@
                                 <h1 class="font-bold">Ilham Yuda</h1>
                                 <small class="text-gray-500 font-bold">Businessman</small>
                             </div>
+                            <div class="absolute bottom-3 md:bottom-6 right-4 md:right-32 ">
+                                <img class="" src="images/circles.png" alt="">
+
+                            </div>
                         </div>
                     </div>
                     <!-- top card -->
@@ -177,7 +181,7 @@
             </div>
             
         </section>
-        <section class="mb-24 mx-2">
+        <section class="mb-8 lg:mb-24 mx-2">
             <div class="text-center">
                 <h1 class="text-5xl font-extrabold">News & Events</h1>`
                 <p class="text-lg font-medium text-gray-500 mx-2 md:mx-16 mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -209,7 +213,66 @@
         </section>
     </main>
     <footer>
+        <section class="bg-gradient-to-r from-red-100 to-orange-100 py-10 px-4">
+            <div class="w-9/12 mx-auto my-auto">
+                <!-- logo -->
+                 <div class="mb-24 flex justify-between">
+                    <img src="images/cup.png" alt="">
+                    <div class="flex items-center gap-4">
+                        <p>Ready to get strated?</p>
+                        <button class="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-3 rounded-lg font-bold">Get Started</button> 
+                    </div>
+                 </div>
+                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <!-- first column -->
+                    <div>
+                        <h3 class="text-xl font-semibold mb-6">Quick Links</h3>
+                        <ul class="space-y-2">
+                            <li><a class="hover:text-orange-600" href="">Home</a></li>
+                            <li><a class="hover:text-orange-600" href="">About Us</a></li>
+                            <li><a class="hover:text-orange-600" href="">Insurance</a></li>
+                            <li><a class="hover:text-orange-600" href="">Privacy Policy</a></li>   
+                        </ul>
+                         
+                    </div>
+                    <!-- 2nd column -->
+                    <div>
+                        <h3 class="text-xl font-semibold mb-6">Our Service</h3>
+                        <ul class="space-y-2">
+                            <li><a class="hover:text-orange-600" href="">Life Insurance</a></li>
+                            <li><a class="hover:text-orange-600" href="">Car Insurance</a></li>
+                            <li><a class="hover:text-orange-600" href="">Health Insurance</a></li>
+                            <li><a class="hover:text-orange-600" href="">House Insurance</a></li> 
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-6">Help</h3>
+                        <ul>
+                            <li><a class="hover:text-orange-600" href="">FAQs</a></li>
+                            <li><a class="hover:text-orange-600" href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- forth colomn -->
+                    <div>
+                        <h3 class="text-xl font-semibold mb-6">Subscribe to our newsletter</h3>
+                        <div  class="flex">
+                            <input class="bg-transparent border-b-2 border-black w-4/5 md:w-5/6 mb-12"  placeholder="Email Address" type="email" name="" id="">
+                            <i class="fa-solid fa-arrow-right w-7 h-7 bg-orange-500 inline-flex rounded-full text-white justify-center items-center mb-12"></i>
+                        </div>
+                        <div class="flex justify-between w-2/5">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
 
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-500 mt-16 mb-16">© 2027 UIDesign.to - All rights reserved.</p>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
